@@ -1,0 +1,26 @@
+{
+  "id": "hero_carousel",
+  "type": "SharedSlice",
+  "name": "HeroCarousel",
+  "description": "HeroCarousel",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroCarousel",
+      "primary": {},
+      "items": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      }
+    }
+  ]
+}
