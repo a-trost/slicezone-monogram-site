@@ -1,6 +1,7 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
+  purge: ['./slices/**/*.vue'],
   theme: {
     colors: {
       navy: '#1a2456',
