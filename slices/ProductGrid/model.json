@@ -1,0 +1,84 @@
+{
+  "id": "product_grid",
+  "type": "SharedSlice",
+  "name": "ProductGrid",
+  "description": "ProductGrid",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ProductGrid",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "columns": {
+          "config": {
+            "label": "Columns",
+            "placeholder": "Columns on a large screen",
+            "options": [
+              "2",
+              "3"
+            ],
+            "default_value": "2"
+          },
+          "type": "Select"
+        }
+      },
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "id": "image",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "hoverImage": {
+          "type": "Image",
+          "config": {
+            "id": "hoverImage",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "title",
+            "placeholder": ""
+          }
+        },
+        "price": {
+          "type": "Number",
+          "config": {
+            "label": "",
+            "id": "price",
+            "placeholder": ""
+          }
+        },
+        "fullWidth": {
+          "type": "Boolean",
+          "config": {
+            "label": "",
+            "id": "fullWidth",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          }
+        }
+      }
+    }
+  ]
+}
