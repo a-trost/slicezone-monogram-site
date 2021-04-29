@@ -10,8 +10,7 @@ module.exports = {
       offWhite: '#f0efed',
     },
     fontFamily: {
-      // sans: ['Graphik', 'sans-serif'],
-      // serif: ['Merriweather', 'serif'],
+      sans: ['prompt', 'sans-serif'],
     },
   },
 }
