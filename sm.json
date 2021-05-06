@@ -1,9 +1,6 @@
 {
   "apiEndpoint": "https://slicezone-monogram.cdn.prismic.io/api/v2",
-  "libraries": [
-    "@/slices",
-    "vue-essential-slices"
-  ],
+  "libraries": ["@/slices"],
   "_latest": "0.0.45",
   "storybook": "http://localhost:3003"
 }

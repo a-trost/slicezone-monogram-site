@@ -63,12 +63,7 @@ export default {
       {
         endpoint: 'https://slicezone-monogram.cdn.prismic.io/api/v2',
         apiOptions: {
-          routes: [
-            {
-              type: 'page',
-              path: '/:uid',
-            },
-          ],
+          routes: [],
         },
       },
     ],
