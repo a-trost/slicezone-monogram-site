@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-screen-xl mx-auto section">
+  <section class="max-w-screen-lg mx-auto my-10 section">
     <prismic-rich-text :field="slice.primary.title" class="sr-only" />
     <ul
       class="grid grid-flow-row gap-10"

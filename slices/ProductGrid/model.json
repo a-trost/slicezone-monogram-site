@@ -34,49 +34,44 @@
       },
       "items": {
         "image": {
-          "type": "Image",
           "config": {
-            "id": "image",
-            "label": "",
+            "label": "Top Image",
             "constraint": {},
             "thumbnails": []
-          }
+          },
+          "type": "Image"
         },
         "hoverImage": {
-          "type": "Image",
           "config": {
-            "id": "hoverImage",
-            "label": "",
+            "label": "Under Image",
             "constraint": {},
             "thumbnails": []
-          }
+          },
+          "type": "Image"
         },
         "title": {
-          "type": "Text",
           "config": {
-            "label": "",
-            "id": "title",
+            "label": "Title",
             "placeholder": ""
-          }
+          },
+          "type": "Text"
         },
         "price": {
-          "type": "Number",
           "config": {
-            "label": "",
-            "id": "price",
+            "label": "Price",
             "placeholder": ""
-          }
+          },
+          "type": "Number"
         },
         "fullWidth": {
-          "type": "Boolean",
           "config": {
-            "label": "",
-            "id": "fullWidth",
+            "label": "Full Width?",
             "placeholder": "",
             "placeholder_false": "false",
             "placeholder_true": "true",
             "default_value": true
-          }
+          },
+          "type": "Boolean"
         }
       }
     }

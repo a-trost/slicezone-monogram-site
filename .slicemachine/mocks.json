@@ -6,5 +6,11 @@
       }
     }
   },
-  "ProductGrid": {}
+  "ProductGrid": {
+    "items": {
+      "title": {
+        "content": null
+      }
+    }
+  }
 }
