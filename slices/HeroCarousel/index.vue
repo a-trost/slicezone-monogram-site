@@ -1,6 +1,9 @@
 <template>
-  <section class="flex hero-carousel">
-   <prismic-image class="w-full object-cover" :field="slice.items[0].image" />
+  <section class="flex hero-carousel h-[337px] md:h-[675px]">
+    <prismic-image
+      class="object-cover w-full h-full"
+      :field="slice.items[0].image"
+    />
   </section>
 </template>
 
@@ -19,13 +22,4 @@ export default {
 </script>
 
 <style lang="css">
- @screen md{
-  .hero-carousel{
-    height: 675px;
-  }
- }
-
-   .hero-carousel{
-    height: 337px;
-  }
 </style>
