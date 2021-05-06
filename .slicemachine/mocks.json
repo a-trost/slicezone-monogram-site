@@ -1,4 +1,10 @@
 {
-  "HeroCarousel": {},
+  "HeroCarousel": {
+    "items": {
+      "image": {
+        "content": "https://monogramcc.com/static/3220ed219b8cf7db0456e1d875d38c30/c5cbe/shot4-monogram-may2020-yellow.jpg"
+      }
+    }
+  },
   "ProductGrid": {}
 }

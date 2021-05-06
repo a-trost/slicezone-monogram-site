@@ -15,7 +15,11 @@ export const DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: mocks[0],
+      mock: (() => {
+        const merged = { ...mocks[0] }
+        merged.primary.columns = '2'
+        return merged
+      })(),
       resolver() {
         return Slice
       },
@@ -24,4 +28,26 @@ export const DefaultSlice = () => ({
   template: '<slice-zone :slices="[ mock ]" :resolver="resolver" />',
 })
 
-DefaultSlice.storyName = mocks[0].name
+DefaultSlice.storyName = 'Two Column'
+
+export const ThreeColumn = () => ({
+  components: {
+    Slice,
+    SliceZone,
+  },
+  data() {
+    return {
+      mock: (() => {
+        const merged = { ...mocks[0] }
+        merged.primary.columns = '3'
+        return merged
+      })(),
+      resolver() {
+        return Slice
+      },
+    }
+  },
+  template: '<slice-zone :slices="[ mock ]" :resolver="resolver" />',
+})
+
+ThreeColumn.storyName = 'Three Column Layout'
