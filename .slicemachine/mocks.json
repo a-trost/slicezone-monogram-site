@@ -12,5 +12,17 @@
         "content": null
       }
     }
+  },
+  "HeaderLink": {
+    "primary": {
+      "label": {
+        "content": null
+      }
+    },
+    "items": {
+      "label": {
+        "content": null
+      }
+    }
   }
 }
