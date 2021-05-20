@@ -8,6 +8,7 @@ module.exports = {
       orange: '#ff501c',
       black: '#080b1b',
       peach: '#ff8b68',
+      lightPeach: '#EFC2B3',
       offWhite: '#f0efed',
     },
     fontFamily: {
